@@ -44,6 +44,16 @@ header {
    
     
 }
+
+
+    
+    
+.navegador a {
+    color: rgb(244, 244, 248);
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.5s ease-in-out;
+}
 .Buscar {
     margin-right: 20px;
     padding: 5px;
@@ -163,8 +173,8 @@ h3 {
     border-radius: 5px;
     transition: background-color 0.5s ease-in-out;
     &:hover {
-        background-color: rgb(194, 167, 78);
-        color: rgb(49, 51, 165);
+        background-color:  antiquewhite;
+        color: rgb(77, 66, 53);
     }
    
 
@@ -206,3 +216,71 @@ a {
     margin: 0px;
     padding: 0px;
 }
+form { position: relative;
+  display: flex;
+    margin: 0 auto;
+    width: auto;
+   background-color: antiquewhite;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    color: rgb(77, 66, 53);
+    font-size: 18px;
+    transition: background-color 0.5s ease-in-out;
+    
+
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    color: rgb(77, 66, 53);
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+ 
+    font: 1em sans-serif;
+  
+  
+    width: 300px;
+    box-sizing: border-box;
+  
+ 
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+   
+    border-color: #000;
+  }
+  
+  textarea {
+    
+    vertical-align: top;
+  
+   
+    height: 5em;
+  }
+  
+  .button {
+    
+    padding-left: 90px; 
+  }
+  
+  button {
+   
+    margin-left: 0.5em;
+  }
